@@ -10,3 +10,4 @@
 **rm -r** deletes a directory<br>
 **cd -** changes the working directory to the previous one<br>
 **file** prints the type of the file<br>
+**ln -s sourceFile symbolicLink** creates a symbolic link to a working directory<br> 
