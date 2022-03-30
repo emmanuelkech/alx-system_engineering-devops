@@ -7,3 +7,4 @@
 **mkdir** creates a new directory<br>
 **mv** moves a file or directory to another location<br>
 **rm** deletes a file from a directory<br>
+**rm -r** deletes a directory<br>
