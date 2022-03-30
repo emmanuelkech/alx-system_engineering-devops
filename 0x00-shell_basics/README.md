@@ -6,3 +6,4 @@
 **ls -na** displays current directory contents with user and group IDs displayed numerically, including hidden files in long format<br>
 **mkdir** creates a new directory<br>
 **mv** moves a file or directory to another location<br>
+**rm** deletes a file from a directory<br>
