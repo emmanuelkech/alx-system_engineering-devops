@@ -8,3 +8,4 @@
 **mv** moves a file or directory to another location<br>
 **rm** deletes a file from a directory<br>
 **rm -r** deletes a directory<br>
+**cd ..** changes the working directory to the previous one<br>
