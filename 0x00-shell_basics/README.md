@@ -5,3 +5,4 @@
 **ls -la** displays current directory contents, including hidden files in long format<br>
 **ls -na** displays current directory contents with user and group IDs displayed numerically, including hidden files in long format<br>
 **mkdir** creates a new directory<br>
+**mv** moves a file or directory to another location<br>
