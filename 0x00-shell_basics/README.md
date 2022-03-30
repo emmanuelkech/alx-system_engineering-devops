@@ -13,3 +13,4 @@
 **ln -s sourceFile symbolicLink** creates a symbolic link to a working directory<br>
 **cp *.fileType locationFile** copies all files of a particular type from the current location to another location<br>
 **mv [[:upper:]]* directory** moves all files with an uppercase letter to another directory<br>
+**rm *~** deletes all files in the working directory that ends with that character
