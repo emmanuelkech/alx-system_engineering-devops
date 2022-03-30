@@ -16,3 +16,4 @@
 **rm *~** deletes all files in the working directory that ends with that character<br>
 **mkdir {dir1,dir2}** makes two directories at once<br>
 **ls -Fma** lists components of a directory with slash, commas, and also displays hidden files<br>
+**ls -Fmav** lists files in current directory based on Slash, Comma, Hidden, and Alph Sorting<br>
