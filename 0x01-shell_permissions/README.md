@@ -12,4 +12,5 @@
 **mkdir -m751 filename** Creates a directory called *filename* with permissions 751 in the working directory<br>
 **chgrp newGroup someFile** Changes the group owner to *newGroup* for the file *someFile*<br>
 **chown vincent:staff * ** Changes the owner to vincent and the group owner to staff for all the files and directories in the working directory<br>
-**sudo chown -h vincent:staff linkName** Changes the owner of symbolic link linkName to vincent and staff respectively<br>
+**sudo chown -h vincent:staff linkName** Changes the owner of symbolic link linkName and group name  to vincent and staff respectively<br>
+**sudo chown --from=guillaume betty hello** Changes the owner of the file hello to betty only if it is owned by the user guillaume<br>
