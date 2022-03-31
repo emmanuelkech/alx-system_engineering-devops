@@ -9,6 +9,7 @@
 **chmod 007 fileName** Sets no permission to owner, no permission to group, and all permissions to others to the file *fileName*<br>
 **chmod 753 fileName** Sets the file to -rwxr-x-wx permission<br>
 **chmod --reference=olleh hello** Sets the mode of the file *hello* the same as *olleh*<br>
+**chmod a+X * ** Creates a script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other user. Regular files should not be changed<br>
 **mkdir -m751 filename** Creates a directory called *filename* with permissions 751 in the working directory<br>
 **chgrp newGroup someFile** Changes the group owner to *newGroup* for the file *someFile*<br>
 **chown vincent:staff * ** Changes the owner to vincent and the group owner to staff for all the files and directories in the working directory<br>
