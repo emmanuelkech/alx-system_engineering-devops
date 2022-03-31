@@ -7,3 +7,4 @@
 **chmod ug+x,o+r fileName** It adds execute permission to the owner and the group owner, and read permission to other users to the file *fileName*<br>
 **chmod ugo+x fileName** Adds execution permission to the owner, the group owner and the other users to the file *fileName*<br>
 **chmod 007 fileName** Sets no permission to owner, no permission to group, and all permissions to others to the file *fileName*<br>
+**chmod 753 fileName** Sets the file to -rwxr-x-wx permission<br>
