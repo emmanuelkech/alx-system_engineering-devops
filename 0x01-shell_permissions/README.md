@@ -8,3 +8,4 @@
 **chmod ugo+x fileName** Adds execution permission to the owner, the group owner and the other users to the file *fileName*<br>
 **chmod 007 fileName** Sets no permission to owner, no permission to group, and all permissions to others to the file *fileName*<br>
 **chmod 753 fileName** Sets the file to -rwxr-x-wx permission<br>
+**chmod --reference=olleh hello** Sets the mode of the file *hello* the same as *olleh*<br>
