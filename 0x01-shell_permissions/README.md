@@ -10,3 +10,4 @@
 **chmod 753 fileName** Sets the file to -rwxr-x-wx permission<br>
 **chmod --reference=olleh hello** Sets the mode of the file *hello* the same as *olleh*<br>
 **mkdir -m751 filename** Creates a directory called *filename* with permissions 751 in the working directory<br>
+**chgrp newGroup someFile** Changes the group owner to *newGroup* for the file *someFile*<br>
