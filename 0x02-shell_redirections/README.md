@@ -19,3 +19,4 @@
 **tr a b | tr A B** Replaces all character occurence of *a* and *A* with *b* and *B* in an input<br>
 **tr -d 'Aa'** Removes every occurence of *A* and *a* from an input<br>
 **cut -d : -f 1,6 psswdfile | sort** Displays the component of *psswdfile* in a sorted format based on username(1) and user home directory(6)<br>
+**find . -empty -printf "%f\n"** Finds all empty files and directories in the current directory and all sub-directories as well as hidden files showing only the names of the files and not the entire path<br>
