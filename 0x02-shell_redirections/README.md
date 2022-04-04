@@ -17,3 +17,4 @@
 **rev** Reverses an input<br>
 **tr a b | tr A B** Replaces all character occurence of *a* and *A* with *b* and *B* in an input<br>
 **tr -d 'Aa'** Removes every occurence of *A* and *a* from an input<br>
+**cat file | sort** Displays the component of *file* in a sorted format<br>
