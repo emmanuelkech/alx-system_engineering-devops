@@ -4,3 +4,4 @@
 **tail -n 10 file** Displays the last 10 lines in the *file* file<br>
 **head -10 file** Displays the first 10 lines in the *file* file<br>
 **head -3 file | tail -1** Displays only the third line in the *file* file<br>
+**ls -la > file** Writes into the *file* file, the result of the command *ls -la*<br>
