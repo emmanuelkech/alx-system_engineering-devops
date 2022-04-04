@@ -7,6 +7,7 @@
 **ls -la > file** Writes into the *file* file, the result of the command *ls -la*<br>
 **tail -1 file >> file** Duplicates the last line of the *file* file into the same *file* file<br>
 **find . -name "*.js" -type f -delete** Removes all the files with .js extensions in the current directory<br>
+**find . -type d ! -path . | wc -l** Counts the number of directories in the current directory including hidden files<br>
 **ls -t | head -10** Displays the 10 newest files in the current directory sorted from newest to oldest<br>
 **sort | uniq -u** Takes a list of words as input and prints only words that appear exactly once<br>
 **grep 'word' file** Displays lines containing *word* in the *file* file<br>
