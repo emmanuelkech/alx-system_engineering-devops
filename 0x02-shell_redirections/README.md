@@ -5,3 +5,4 @@
 **head -10 file** Displays the first 10 lines in the *file* file<br>
 **head -3 file | tail -1** Displays only the third line in the *file* file<br>
 **ls -la > file** Writes into the *file* file, the result of the command *ls -la*<br>
+**tail -1 file >> file** Duplicates the last line of the *file* file into the same *file* file<br>
