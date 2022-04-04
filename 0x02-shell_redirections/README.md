@@ -21,3 +21,4 @@
 **cut -d : -f 1,6 psswdfile | sort** Displays the component of *psswdfile* in a sorted format based on username(1) and user home directory(6)<br>
 **find . -empty -printf "%f\n"** Finds all empty files and directories in the current directory and all sub-directories as well as hidden files showing only the names of the files and not the entire path<br>
 **find . -name "*.gif" -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f** Lists all the files with a *.gif* extension in the current directory and all its sub-directories as well as hidden files showing only the names of the files without their extensions, and the files are sorted by byte values, but case-insensitive<br>
+**cut -c 1 | paste -s -d ''** Decodes acrostics that use the first letter of each line<br>
