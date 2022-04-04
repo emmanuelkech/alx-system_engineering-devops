@@ -22,3 +22,4 @@
 **find . -empty -printf "%f\n"** Finds all empty files and directories in the current directory and all sub-directories as well as hidden files showing only the names of the files and not the entire path<br>
 **find . -name "*.gif" -type f -printf "%f\n" | rev | cut -d. -f2- | rev | LC_ALL=C sort -f** Lists all the files with a *.gif* extension in the current directory and all its sub-directories as well as hidden files showing only the names of the files without their extensions, and the files are sorted by byte values, but case-insensitive<br>
 **cut -c 1 | paste -s -d ''** Decodes acrostics that use the first letter of each line<br>
+**tail -n +2 | sort | cut -f1 | uniq -c | sort -g -r | head -11 | tr -s " " | cut -d" " -f3** Parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests ordered by number of requests, with most active host or IP at the top<br>
