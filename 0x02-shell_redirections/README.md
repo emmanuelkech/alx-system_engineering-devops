@@ -11,3 +11,4 @@
 **sort | uniq -u** Takes a list of words as input and prints only words that appear exactly once<br>
 **grep 'word' file** Displays lines containing *word* in the *file* file<br>
 **grep -c 'word' file** Counts and displays the number of lines containing *word* in the *file* file<br>
+**grep -A 3 'word' file** Displays lines containing *word* and 3 lines after them in the *file* file<br>
