@@ -10,3 +10,4 @@
 **ls -t | head -10** Displays the 10 newest files in the current directory sorted from newest to oldest<br>
 **sort | uniq -u** Takes a list of words as input and prints only words that appear exactly once<br>
 **grep 'word' file** Displays lines containing *word* in the *file* file<br>
+**grep -c 'word' file** Counts and displays the number of lines containing *word* in the *file* file<br>
