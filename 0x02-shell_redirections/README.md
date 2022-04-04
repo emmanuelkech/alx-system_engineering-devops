@@ -14,3 +14,4 @@
 **grep -A 3 'word' file** Displays lines containing *word* and 3 lines after them in the *file* file<br>
 **grep -v 'word' file** Displays all other lines apart from the lines containing *word* in the *file* file<br>
 **grep '^[[:alpha:]]' file** Displays all lines of the *file* filstarting with a letter<br>
+**rev** Reverses its input<br>
