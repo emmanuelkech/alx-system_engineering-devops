@@ -7,3 +7,4 @@
 **ls -la > file** Writes into the *file* file, the result of the command *ls -la*<br>
 **tail -1 file >> file** Duplicates the last line of the *file* file into the same *file* file<br>
 **rm *.js** Removes all the files with .js extensions in the current directory<br>
+**ls -t | head -10** Displays the 10 newest files in the current directory sorted from newest to oldest<br>
