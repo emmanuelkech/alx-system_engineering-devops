@@ -15,5 +15,5 @@
 **grep -v 'word' file** Displays all other lines apart from the lines containing *word* in the *file* file<br>
 **grep '^[[:alpha:]]' file** Displays all lines of the *file* filstarting with a letter<br>
 **rev** Reverses an input<br>
-**tr 'ab' 'AB'** Replaces all character *a* and *A* to *b* and *B* in an input<br>
+**tr a b | tr A B** Replaces all character occurence of *a* and *A* with *b* and *B* in an input<br>
 **tr -d 'Aa'** Removes every occurence of *A* and *a* from an input<br>
