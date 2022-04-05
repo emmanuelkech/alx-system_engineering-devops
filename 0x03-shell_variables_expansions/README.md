@@ -11,3 +11,4 @@
 11. **echo $(($BREATH ** $LOVE))** Prints the result of _BREATH_ to the power _LOVE_ <br>
 12. **echo $((2#$BINARY))** Prints the result of the conversion of _BINARY_ to decimal (base 10) <br>
 13. **echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"** Prints all possible combinations of two lower case letters, except _oo_, one combination per line and alpha ordered<br>
+14. **printf "%.2f\n" $NUM** Prints a number stored in _NUM_ with two decimal places<br>
