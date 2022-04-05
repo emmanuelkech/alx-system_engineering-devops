@@ -15,3 +15,4 @@
 15. **printf '%x\n' $DECIMAL** Prints the result of the conversion of _DECIMAL_ (base 10) to base 16 <br>
 16. **tr '[A-Za-z]' '[N-ZA-Mn-za-m]'** Encodes and decodes text using the rot13 encryption. Assume ASCII <br>
 17. **paste - - | cut -f 1** Prints every other line from the input, starting with the first line <br>
+18. **printf "%o\n" $((5#$(echo $WATER | tr 'water' '01234') + 5#$(echo $STIR | tr 'stir.' '01234'))) | tr '01234567' 'behlnort'** Adds two numbers stored in thr environment variable _WATER_ and _STIR_ and prints the result. _WATER_ is in base _water_, _STIR_ is in base _stir._, and the result is in base _bestchol_
