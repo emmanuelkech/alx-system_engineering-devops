@@ -6,4 +6,5 @@
 6. **set** Lists all local variables as well as global/environmental variables<br>
 7. **VARNAME="value"** Creates a new local variable _VARNAME_ <br>
 8. **export VARNAME="value"** Creates an global/environment variable<br>
-9. **echo ((1 + $VARNAME))** Prints the result of the addition of 1 to the value stored in the _VARNAME_ variable<br>
+9. **echo $((1 + $VARNAME))** Prints the result of the addition of 1 to the value stored in the _VARNAME_ variable<br>
+10. **echo $(($VARNAME / $DIV))** Prints the result of _VARNAME_ divided by _DIV_ <br>
