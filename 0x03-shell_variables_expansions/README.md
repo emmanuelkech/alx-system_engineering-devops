@@ -8,3 +8,4 @@
 8. **export VARNAME="value"** Creates an global/environment variable<br>
 9. **echo $((1 + $VARNAME))** Prints the result of the addition of 1 to the value stored in the _VARNAME_ variable<br>
 10. **echo $(($VARNAME / $DIV))** Prints the result of _VARNAME_ divided by _DIV_ <br>
+11. **echo $(($BREATH ** $LOVE))** Prints the result of _BREATH_ to the power _LOVE_ <br>
