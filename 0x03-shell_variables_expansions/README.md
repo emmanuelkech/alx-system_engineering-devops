@@ -13,3 +13,4 @@
 13. **echo {a..z}{a..z} | tr " " "\n" | grep -v "oo"** Prints all possible combinations of two lower case letters, except _oo_, one combination per line and alpha ordered<br>
 14. **printf "%.2f\n" $NUM** Prints a number stored in _NUM_ with two decimal places and adds a new line<br>
 15. **printf '%x\n' $DECIMAL** Prints the result of the conversion of _DECIMAL_ (base 10) to base 16 <br>
+16. **tr '[A-Za-z]' '[N-ZA-Mn-za-m]'** Encodes and decodes text using the rot13 encryption. Assume ASCII <br>
