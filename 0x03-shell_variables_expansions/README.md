@@ -14,3 +14,4 @@
 14. **printf "%.2f\n" $NUM** Prints a number stored in _NUM_ with two decimal places and adds a new line<br>
 15. **printf '%x\n' $DECIMAL** Prints the result of the conversion of _DECIMAL_ (base 10) to base 16 <br>
 16. **tr '[A-Za-z]' '[N-ZA-Mn-za-m]'** Encodes and decodes text using the rot13 encryption. Assume ASCII <br>
+17. **paste - - | cut -f 1** Prints every other line from the input, starting with the first line <br>
