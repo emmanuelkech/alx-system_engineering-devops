@@ -5,3 +5,4 @@
 5. **printenv** Lists global/environmental variables<br>
 6. **set** Lists all local variables as well as global/environmental variables<br>
 7. **VARNAME="value"** Creates a new local variable _VARNAME_ <br>
+8. **export VARNAME="value"** Creates an global/environment variable<br>
